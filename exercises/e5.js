@@ -56,13 +56,11 @@ sumOfTwoIntegers(8, 8)
 // Your code goes here...
 
 const isOneOfThemOrTheirSumIsFourty = (num1, num2) => {
-  if (num1 + num2 !== 40) {
-    return true;
-  } else if (num1 || num2 === 40) {
-    return true;
-  } else if (num1 + num2 !== 40) {
-    return false;
-  } else (num1 || num2 !== 40)
+  if (num1 === 40 || num2 === 40 || num1 + num2 === 40) {
+    return true 
+  } else {
+    return false
+  }
 }
 
 isOneOfThemOrTheirSumIsFourty(21, 19)

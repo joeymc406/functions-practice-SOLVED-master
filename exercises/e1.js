@@ -16,11 +16,8 @@
 // Your code goes here
 
 function logMessage() {
-  return 'Hello, World'
+  console.log('Hello, World!')
 }
-
-let message = logMessage();
-console.log(message)
 
 /**
  * =============================================================
@@ -35,13 +32,12 @@ console.log(message)
 
 // Your code goes here...
 
-function logMyMessage(arg) {
-  let result1 = arg
-  return result1
+function logMyMessage(message) {
+  console.log(message)
 }
 
 let message1 = logMyMessage('logging my first message')
-console.log(message1)
+
 
 
 /**
@@ -57,12 +53,11 @@ console.log(message1)
 // Your code goes here...
 
 
-function logMessageWithMyName(person) {
-  let result2 = 'My name is ' + person
-  return result2
+function logMessageWithMyName(name) {
+  console.log("My name is " + name + "!")
 }
-let person = logMessageWithMyName('Andrey')
-console.log(person)
+
+
 
 /**
  * ==============================================================
@@ -80,14 +75,11 @@ console.log(person)
 
 
 function logMyInfo(name, age) {
-  const person = {
-    person1: { name: 'Andrey', age: 18}
-  }
-   return 'My name is ' + person.person1.name + '. I am ' + person.person1.age + ' years old.'
+   console.log("My name is " + name + ". I am " + age + " years old!")
   
 }
 
-logMyInfo('Andrey', 18)
+
 
 
 

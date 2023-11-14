@@ -13,12 +13,8 @@
 //   return str.split(' ');
 // }
 
-const splitFirstAndLastNames = (str) => {
-  str.split(' ')
-}
+const splitFirstAndLastNames = (str) => str.split(' ')
 
-
-  splitFirstAndLastNames('John Smith')
 
 /** =========================
  * The personAge() constant is assigned to a function, that takes an object of person Data as the argument.
@@ -30,12 +26,7 @@ const splitFirstAndLastNames = (str) => {
 //   return personObject.age;
 // }
 
-const personAge = (personObject) => {
-  personObject.age
-
-}
-
-personAge({id: 1, name: 'Someone', age: 43})
+const personAge = (personObject) => personObject.age
 
 /** =========================
  * The isNameInArray function takes an array and string of name as the arguments.
@@ -48,13 +39,7 @@ personAge({id: 1, name: 'Someone', age: 43})
 //   return arr.includes(name);
 // }
 
-const isNameInArray = (arr, name) => {
-  arr.includes(name)
-}
-
-isNameInArray(['Jon', 'Michael', 'Andrey'], 'Michael')
-
-isNameInArray(['Jon', 'Michael', 'Andrey'], 'James')
+const isNameInArray = (arr, name) => arr.includes(name)
 
 /** =========================
  * The logTimer function takes a number as the arguments.
@@ -85,16 +70,7 @@ const timer = setInterval(() => {
   }, 1000);
 }
   
-logSecondsUpToMax(1)
-logSecondsUpToMax(2)
-logSecondsUpToMax(3)
-logSecondsUpToMax(4)
-logSecondsUpToMax(5)
-logSecondsUpToMax(6)
-logSecondsUpToMax(7)
-logSecondsUpToMax(8)
-logSecondsUpToMax(9)
-logSecondsUpToMax(10)
+
 
 
 
